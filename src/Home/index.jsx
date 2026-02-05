@@ -187,11 +187,11 @@ export default function Home() {
             tl.fromTo(
                 ".boxTxt1970 h1",
                 {
-                    y: 100,
+                    y: 50,
                     opacity: 1
                 },
                 {
-                    y: -100,
+                    y: -500,
                     opacity: 0,
                     ease: "none"
                 },
@@ -208,7 +208,7 @@ export default function Home() {
                     opacity: 1
                 },
                 {
-                    y: -120,
+                    y: -520,
                     opacity: 0,
                     stagger: 0.25,
                     ease: "none"
@@ -403,6 +403,33 @@ export default function Home() {
                     </div>
                 </div>
 
+                <div className="container1958Mob">
+                    <div className="panels1958Mob">
+                        <div className="box1958Mob">
+                            <div className="boxText1958">
+                                <div className="title1958">
+                                    <h1>1958</h1>
+                                    <img src={YellowStar} alt="" />
+                                </div>
+                                <h2>O NASCIMENTO DE UM GIGANTE</h2>
+                                <p>A Copa do Mundo de 1958 marcou o nascimento do Brasil como potência do futebol mundial. Disputada na Suécia, a competição revelou ao planeta o talento de um jovem Pelé, então com apenas 17 anos, além de Garrincha, Didi e Vavá. A seleção brasileira encantou com um estilo ofensivo, criativo e alegre, vencendo a final contra os anfitriões por 5 a 2. Mais do que um título, 1958 representou o início de uma identidade futebolística que mudaria a história do esporte.</p>
+                                <div className="pele01"><img src={Pele01} alt="" /></div>
+                            </div>
+                            <div className="imgs1958">
+                                <img src={Um1958} alt="" />
+                                <img src={Dois1958} alt="" />
+                            </div>
+                            <div className="txtImgTop1958">
+                                <h2>O MUNDO DESCOBRE O BRASIL</h2>
+                                <p>Na Copa do Mundo de 1958, o Brasil não conquistou apenas um título — conquistou respeito. Com um estilo jamais visto até então, a seleção mostrou que o futebol podia ser arte. A vitória na final contra a Suécia revelou ao mundo nomes que se tornariam eternos e deu início à trajetória mais vitoriosa da história das Copas.</p>
+                            </div>
+                            <div className="imgPele02">
+                                <img src={Pele02} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="containerGSAPZoom">
                     <div className="contentGSAPZoom">
 
@@ -465,6 +492,12 @@ export default function Home() {
                             <div className="bigImg1970"><img src={Pele3} alt="" /></div>
                             <div className="midImg1970"><img src={Time70} alt="" /></div>
                             <div className="smallImg1970"><img src={Capita} alt="" /></div>
+                        </div>
+
+                        <div className="imgs70Mob">
+                            <div className="bigImg1970Mob"><img src={Pele3} alt="" /></div>
+                            <div className="midImg1970Mob"><img src={Time70} alt="" /></div>
+                            <div className="smallImg1970Mob"><img src={Capita} alt="" /></div>
                         </div>
 
                         <div className="right1970">
@@ -564,6 +597,36 @@ export default function Home() {
                         </div>
                     </div>
 
+                    <div className="boxIntro02Mob">
+                        <div className="ronaldinhoImg img2002">
+                            <img src={Ronaldinho} alt="" />
+                            <div className="contentImg2002">
+                                <h2>Ronaldinho Gaúcho</h2>
+                                <p>Gol de falta marcado por Ronaldinho contra a Inglaterra na Copa de 2002, em um chute surpreendente de longa distância que encobriu o goleiro David Seaman. O lance mostrou genialidade e ousadia, garantiu a vitória do Brasil nas quartas de final e se tornou um dos gols mais marcantes da história das Copas.</p>
+                            </div>
+                        </div>
+                        <div className="ronaldoImg img2002">
+                            <img src={Ronaldo} alt="" />
+                            <div className="contentImg2002">
+                                <h2>Ronaldo Fenômeno</h2>
+                                <p>O gol de Ronaldo Fenômeno na final da Copa do Mundo de 2002 simbolizou redenção e grandeza. Aproveitando o rebote do goleiro Oliver Kahn, após chute de Rivaldo, Ronaldo apareceu no momento certo para empurrar para as redes e abrir o caminho do título contra a Alemanha. O lance marcou a volta por cima do camisa 9, que encerrou a Copa como artilheiro e garantiu o pentacampeonato ao Brasil.</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div className="contentCenter">
+                        <div className="stars1962">
+                            <img src={GreenStar} alt="" />
+                            <img src={GreenStar} alt="" />
+                            <img src={GreenStar} alt="" />
+                            <img src={GreenStar} alt="" />
+                            <img src={GreenStar} alt="" />
+                        </div>
+                        <h3>2002</h3>
+                        <h1>O <span className='green'>FUTEBOL</span> <span className='blue'>BRASILEIRO</span> <span className='green'>NO</span> SEU <span className='green'>ESTADO</span> <span className='blue'>PURO</span></h1>
+                        <div className="logo2002"><img src={Logo} alt="" /></div>
+                    </div>
+
                     <div className="imgs2002">
                         <div className="boxImgtop02">
                             <div className="imgtop2002 img2002">
@@ -611,10 +674,9 @@ export default function Home() {
                             <img src={Camisa2002} alt="" />
                         </div>
                     </div>
-
-
                 </div>
 
+                <footer><p>Copyright © 2026 by @guiabraao</p></footer>
             </main>
 
         </>

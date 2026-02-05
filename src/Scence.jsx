@@ -15,8 +15,8 @@ export default function Scene() {
 
             <PerspectiveCamera
                 makeDefault
-                position={[0, 0, 19.1]}
-                fov={35}
+                position={[0, 0, 19]}
+                fov={30}
                 near={0.01}
                 far={1000}
             />

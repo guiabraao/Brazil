@@ -42,7 +42,6 @@ header {
 .nav-header ul {
     display: flex;
     justify-content: space-around;
-
     width: 100vw;
     list-style: none;
 }
@@ -119,17 +118,15 @@ header {
     background-color: #0b4bc3;
 }
 
-.containerAnimationIntro{
+.containerAnimationIntro {
     position: relative;
-    height: 200vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    min-height: 100vh;
 }
 
 .boxCanvas {
-    position: absolute;
-    top: 0;
     width: 100%;
     height: 100%;
 }
@@ -138,10 +135,15 @@ canvas {
     width: 100%;
 }
 
+.container1958Mob {
+    display: none;
+}
+
 .boxTxtIntro2 {
     padding: 1rem;
     font-family: epilogue;
-    font-size: 3.4vw;;
+    font-size: 3.4vw;
+    ;
     max-width: 1100px;
     color: #044800;
 }
@@ -260,7 +262,6 @@ canvas {
 .containerGSAPZoom {
     height: 100vh;
     background: url(../assets/backgroundOG.png);
-
     overflow: hidden;
 }
 
@@ -315,9 +316,7 @@ canvas {
     z-index: 3;
 }
 
-
 /* 1962 */
-
 .txtIntro1962 {
     padding: 1rem;
     font-family: epilogue;
@@ -530,27 +529,24 @@ canvas {
 }
 
 .right1970 {
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: end;
-
 }
 
 .boxTxt1970 {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
 }
 
 .boxTxt1970 h1 {
     color: white;
     font-family: epilogue;
-    font-size: 6vw;
-    ;
+    font-size: 6vw;;
     max-width: 500px;
 }
 
@@ -563,6 +559,7 @@ canvas {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    margin-top: 4rem;
 }
 
 .txt70 h3 {
@@ -578,7 +575,6 @@ canvas {
     color: white;
     font-family: lexend;
     font-weight: 500;
-    margin-top: 1rem;
     line-height: 1.5;
 }
 
@@ -597,7 +593,11 @@ canvas {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: radial-gradient(circle farthest-side at bottom left, #0e3a05 0%, #006000 50%);
+    background: url(../assets/background94.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .panels94 {
@@ -656,11 +656,6 @@ canvas {
     justify-content: safe;
     padding: 2rem;
     width: 50%;
-    background: url(../assets/test.jfif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .boxImg94 {
@@ -685,8 +680,6 @@ canvas {
     position: relative;
     display: flex;
     width: 100vw;
-background: linear-gradient(0deg,#054602 0%, #053502 50%);
-
 }
 
 .boxLeftRomario {
@@ -771,7 +764,6 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
 }
 
 /* 2002 */
-
 .boxIntro02 {
     display: flex;
 }
@@ -795,9 +787,7 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     position: absolute;
     inset: 0;
     padding: 2rem;
-    background: linear-gradient(0deg,
-            rgba(255, 0, 0, 0) 0%,
-            #001a06 100%);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0) 0%, #001a06 100%);
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     z-index: 5;
@@ -822,7 +812,7 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
 
 .img2002 img {
     transition: all 0.3s ease-in-out;
-    box-shadow: -1px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 .img2002:hover img {
@@ -868,11 +858,10 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     border-radius: 22px;
 }
 
-.boxImgtop02{
+.boxImgtop02 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .imgtop2002 {
@@ -896,7 +885,7 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     width: 25vw;
 }
 
-.rivaldo{
+.rivaldo {
     width: fit-content;
     border-radius: 22px;
 }
@@ -905,7 +894,7 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     width: 32vw;
 }
 
-.ronaldos{
+.ronaldos {
     width: fit-content;
     border-radius: 22px;
 }
@@ -914,7 +903,7 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     width: 23vw;
 }
 
-.cafu{
+.cafu {
     width: fit-content;
     border-radius: 22px;
 }
@@ -946,13 +935,397 @@ background: linear-gradient(0deg,#054602 0%, #053502 50%);
     padding: 1rem;
 }
 
-.boxGif2002{
+.boxGif2002 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.gif2002 img{
+.gif2002 img {
     border-radius: 33px;
-    box-shadow: -1px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.boxIntro02Mob {
+    display: none;
+}
+
+footer{
+    padding: 1rem;
+    margin-top: 5rem;
+    text-align: center;
+    font-family: lexend;
+    color: #044800;
+}
+
+.imgs70Mob{
+    display: none;
+}
+
+@media(max-width: 1000px) {
+    .boxTopIntro p {
+        font-size: 10pt;
+    }
+
+    .container1958 {
+        display: none;
+    }
+
+    .container1958Mob {
+        display: block;
+        background: linear-gradient(137deg, #133511 0%, #133511 80%);
+    }
+
+    .boxText1958 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .title1958 h1 {
+        font-size: 35pt;
+    }
+
+    .title1958 img {
+        width: 30px;
+    }
+
+    .boxText1958 h2 {
+        max-width: 100%;
+    }
+
+    .boxText1958 p {
+        max-width: 100%;
+    }
+
+    .pele01 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pele01 img {
+        width: 100%;
+    }
+
+    .imgs1958 {
+        width: 100%;
+    }
+
+    .imgs1958 img {
+        width: 100%;
+    }
+
+    .txtImgTop1958 h2 {
+        font-size: 25pt;
+    }
+
+    .section-hero p {
+        font-size: 15pt;
+    }
+
+    .title1962 h2 {
+        font-size: 30pt;
+    }
+
+    .stars1962 img {
+        width: 30px;
+    }
+
+    .title1962 p {
+        font-size: 10pt;
+    }
+
+    .box1962 {
+        flex-direction: column;
+    }
+
+    .left1962 {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .bigImg1962 {
+        top: 2rem;
+        right: 5rem;
+    }
+
+    .bigImg1962 img {
+        width: 330px;
+    }
+
+    .midImg1962 {
+        top: 13rem;
+        left: 13rem;
+    }
+
+    .midImg1962 img {
+        width: 180px;
+    }
+
+    .lowImg1962 img {
+        width: 180px;
+    }
+
+    .right1962 {
+        display: flex;
+        justify-content: start;
+    }
+
+    .right1962 h1 {
+        max-width: 450px;
+        font-size: 50pt;
+    }
+
+    .gif1962Box img {
+        width: 300px;
+    }
+
+    .left1970{
+        display: none;
+    }
+
+    .imgs70Mob{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bigImg1970Mob{
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+    }
+
+    .midImg1970Mob{
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+    }
+
+    .smallImg1970Mob{
+        position: absolute;
+        bottom: 5px;
+        left: 100px;
+    }
+
+    .txt70{
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    
+    .imgs70Mob img {
+        box-shadow: 0px 0px 50px #5a5a5a;
+        border-radius: 10px;
+    }
+
+    .right1970{
+        padding: 1rem;
+    }
+
+    .txt70 p{
+        font-size: 11pt;
+        margin-top: 0.5rem;
+    }
+
+    .bigImg1970Mob img{
+        width: 50vw;
+    }
+
+    .midImg1970Mob img{
+        width: 28vw;
+    }
+
+     .smallImg1970Mob img{
+        width: 15vw;
+    }
+
+    .sectionIntro94 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .boxLeftIntro94 {
+        width: 100%;
+    }
+
+    .boxImg94 {
+        width: 100%;
+    }
+
+    .boxImg94 img {
+        width: 100%;
+    }
+
+    .sectionRomario{
+        width: 100vw;
+    }
+
+    .boxLeftRomario{
+        width: 100%;
+    }
+
+    .boxLeftIntro94 h1{
+        font-size: 60pt;
+    }
+
+    .boxLeftIntro94 p{
+        font-size: 10pt;
+    }
+
+    .boxRightRomario{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .boxImgs94 img{
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .boxImgs94 img:hover{
+        z-index: 99;
+        transform: scale(1.1);
+    }
+
+    .selecao94 img{
+        width: 34vw;
+    }
+
+    .boxRightRomario img{
+        width: 40vw;
+    }
+
+    .romarioTaca{
+        bottom: 1rem;
+        left: 18rem;
+        z-index: 99;
+    }
+
+    .romarioTaca img{
+        width: 45vw;
+    }
+
+    .bebeto{
+        top: 18rem;
+    }
+
+    .bebeto img{
+        width: 50vw;
+    }
+
+    .trio94{
+        right: -20rem;
+        top: 20rem;
+    }
+
+    .trio94 img{
+        width: 35vw;
+    }
+
+    .boxIntro02 {
+        display: none;
+    }
+
+    .boxIntro02Mob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ronaldinhoImg img {
+        width: 100%;
+    }
+
+    .ronaldoImg img {
+        width: 100%;
+    }
+
+    .contentCenter h3 {
+        font-size: 30pt;
+    }
+
+    .contentCenter h1 {
+        font-size: 30pt;
+        max-width: 400px
+    }
+
+    .boxTexts2002 {
+        padding: 0;
+    }
+
+    .contentImg2002{
+        padding: 0.2rem;
+    }
+
+    .contentImg2002 p{
+        font-size: 8pt;
+        line-height: 1.2;
+        margin-top: 0;
+    }
+
+    .textLeft {
+        padding: 1rem;
+    }
+
+    .box1970 {
+        flex-direction: column;
+    }
+
+    .left1970 {
+        position: relative;
+        background-color: red;
+    }
+
+    .right1970 {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 500px){
+    .selecao94{
+        top: 4rem;
+    }
+    
+    .selecao94 img{
+        width: 44vw;
+    }
+
+    .boxRightRomario img{
+        width: 40vw;
+    }
+
+    .romarioTaca{
+        top: -1rem;
+        left: 14rem;
+    }
+
+    .bebeto{
+        top: 20.5rem;
+    }
+
+    .bebeto img{
+        width: 60vw;
+    }
+
+    .trio94{
+        right: -15.5rem;
+        top: 10rem;
+    }
+
+    .trio94 img{
+        width: 45vw;
+    }
+
+    .boxLeftRomario p{
+        font-size: 10pt;
+    }
+
+    .boxTexts2002 p{
+        font-size: 11pt;
+    }
 }
